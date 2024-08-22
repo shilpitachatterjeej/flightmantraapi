@@ -1,0 +1,33 @@
+{
+  "name": "footballclub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e twig,js,css app.js"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.3",
+    "all-the-cities": "^3.1.0",
+    "axios": "^1.7.4",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.1",
+    "express-mysql-session": "^2.1.8",
+    "express-session": "^1.17.3",
+    "googleapis": "^142.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "md5": "^2.3.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.11.0",
+    "nodemailer": "^6.9.4",
+    "request": "^2.88.2",
+    "sequelize": "^6.21.6",
+    "server.js": "^1.0.0",
+    "twig": "^1.15.2"
+  }
+}

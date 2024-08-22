@@ -1,0 +1,37 @@
+:root {
+    --blue: #283C8B;
+    /* --blue: #294DFF; */
+}
+
+
+.form-control-lg {
+    border-radius: 1rem !important;
+}
+
+.btn.btn-outline-blue {
+    color: var(--blue);
+    background-color: transparent;
+    border-color: var(--blue);
+}
+
+.btn.btn-outline-blue:hover {
+    background: var(--blue);
+    border-color: var(--blue);
+    color: #FFFFFF;
+}
+
+.btn.btn-light-blue {
+    color: var(--blue) !important;
+    background-color: #EEE5FF !important;
+    border-color: transparent;
+}
+
+.btn.btn-light-blue:hover {
+    color: #FFFFFF !important;
+    background-color: var(--blue) !important;
+    border-color: transparent;
+}
+
+.text-blue {
+    color: var(--blue) !important;
+}
